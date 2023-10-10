@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import 'bootswatch/dist/sketchy/bootstrap.min.css';
+import 'bootswatch/dist/vapor/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,4 +10,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
