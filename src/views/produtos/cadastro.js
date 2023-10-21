@@ -1,14 +1,11 @@
 import React from 'react'
 
-
-
-class CadastroProduto extends React.Component {
-
-    render() {
-        return (
+export default class CadastroProduto extends React.Component {
+    render(){
+        return(
             <div className="card">
                 <div className="card-header">
-                    Cadastro de Produto
+                    Cadastro de tarefas
                 </div>
                 <div className="card-body">
 
@@ -16,6 +13,4 @@ class CadastroProduto extends React.Component {
             </div>
         )
     }
-
 }
-export default CadastroProduto;

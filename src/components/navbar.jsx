@@ -2,33 +2,24 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+        <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Cadproduct</a>
-                <button className="navbar-toggler" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navbarColor03" 
-                    aria-controls="navbarColor03" 
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <div className="collapse navbar-collapse" id="navbarColor03">
+                <a className="navbar-brand" href="#">Donalili🎯</a>
+                <div className="collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">
-                                Home
-                            <span className="visually-hidden">(current)</span>
-                        </a>
+                            <a className="nav-link active" href="/"> Home
+                                <span className="visually-hidden">(current)</span>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Cadastro</a>
-                         
+                            <a className="nav-link" href="/cadastro-produtos">Cadastrar</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Consulta</a>
+                            <a className="nav-link" href="#">Anotações</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Finanças</a>
                         </li>
                     </ul>
                 </div>
